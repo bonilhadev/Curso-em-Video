@@ -1,0 +1,5 @@
+ALGORITMO "primeiro"
+inicio
+    Escreval ("Olá, Mundo!")
+    Escreva ("Me livrei da maldição!")
+FIMALGORITMO
