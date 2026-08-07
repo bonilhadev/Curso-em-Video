@@ -4,5 +4,5 @@ var
     
 inicio
     msg <-("Olá, Mundo!")
-    Escreval (msg)
+    Escreval ("Mensagem ", msg)
 FIMALGORITMO
