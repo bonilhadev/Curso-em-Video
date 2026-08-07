@@ -1,0 +1,8 @@
+ALGORITMO "segundo"
+var 
+    msg: caractere
+    
+inicio
+    msg <-("Olá, Mundo!")
+    Escreval (msg)
+FIMALGORITMO
