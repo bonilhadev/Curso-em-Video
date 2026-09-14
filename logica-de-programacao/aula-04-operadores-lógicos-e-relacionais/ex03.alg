@@ -13,7 +13,7 @@ inicio
     Leia(L3)  
 
     EQ <- (L1 = L2) e (L2 = L3) 
-    ES <- (L1 <> L2) e (L2 <> L3) e (L1 <> L3)
+    ES <- (L1 <> L) e (L2 <> L3) e (L1 <> L3)
     Escreval ("o triangulo é EQUILATERO? ", EQ)
     Escreval ("o triangulo é ESCALENO? ", ES)
 
