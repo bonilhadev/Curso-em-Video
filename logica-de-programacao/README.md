@@ -12,11 +12,15 @@ O objetivo deste curso é desenvolver minha base de programação, trabalhando c
 
 Até o momento:
 
-* Algoritmos
-* Variáveis
-* Tipos primitivos
-* Entrada e saída de dados
-* Operadores
+- Algoritmos
+- Variáveis
+- Tipos primitivos
+- Entrada e saída de dados
+- Operadores aritméticos
+- Operadores relacionais
+- Operadores lógicos
+- Ordem de precedência
+- Expressões lógicas
 
 ## Estrutura
 
@@ -25,30 +29,18 @@ Os exercícios são organizados de acordo com as aulas do curso.
 ```text
 logica-de-programacao/
 ├── aula-02-primeiro-algoritmo/
-│   ├── ex01.portugol
-│   └── ex02.portugol
+│   ├── ex01.alg
+│   └── ex02.alg
 │
 ├── aula-03-entrada-e-operadores/
-│   ├── ex01.portugol
-│   ├── ex02.portugol
-│   └── ex03.portugol
+│   ├── ex01.alg
+│   ├── ex02.alg
+│   └── ex03.alg
+│
+├── aula-04-operadores-lógicos-e-relacionais/
+│   ├── ex01.alg
+│   ├── ex02.alg
+│   └── ex03.alg
 │
 ├── notas.md
 └── README.md
-```
-
-## Anotações
-
-O arquivo [`notas.md`](./notas.md) reúne anotações e conceitos importantes estudados durante o curso.
-
-## Linguagem
-
-Os exercícios estão sendo desenvolvidos em **Portugol**, com foco no aprendizado de lógica e construção de algoritmos.
-
-## Objetivo
-
-Este diretório faz parte do meu repositório de estudos do Curso em Vídeo e será atualizado conforme avanço nas aulas e exercícios.
-
----
-
-[← Voltar para o repositório principal](../README.md)
