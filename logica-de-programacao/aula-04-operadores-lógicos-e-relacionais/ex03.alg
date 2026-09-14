@@ -1,20 +1,23 @@
 algoritmo "triangulos"
 var
-    L1, L2, L3: real
-    EQ, ES: Logico
+    LadoA, LadoB, LadoC: real
+    EQ, ES, TRI: Logico
 inicio
     Escreval("Digite o valor do lado 1: ")
-    Leia(L1)
+    Leia(LadoA)
 
     Escreval("Digite o valor do lado 2: ")
-    Leia(L2)
+    Leia(LadoB)
 
     Escreval("Digite o valor do lado 3: ")
-    Leia(L3)  
+    Leia(LadoC)
 
-    EQ <- (L1 = L2) e (L2 = L3) 
-    ES <- (L1 <> L) e (L2 <> L3) e (L1 <> L3)
+    TRI <- (LadoA < LadoB + LadoC) e (LadoB < LadoA + LadoC) e (LadoC < LadoA + LadoB) // verifica se é um triangulo
+    EQ <- (LadoA = LadoB) e (LadoB = LadoC)
+    ES <- (LadoA <> LadoB) e (LadoB <> LadoC) e (LadoA <> LadoC)
+    Escreval ("o triangulo é VALIDO? ", TRI)
     Escreval ("o triangulo é EQUILATERO? ", EQ)
     Escreval ("o triangulo é ESCALENO? ", ES)
+
 
 fimalgoritmo
